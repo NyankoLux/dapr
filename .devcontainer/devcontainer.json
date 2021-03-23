@@ -26,8 +26,8 @@
 		"terminal.integrated.shell.linux": "/bin/bash",
 		"go.gopath": "/go"
 	},
-	"workspaceMount": "type=bind,source=${localWorkspaceFolder},target=/go/src/github.com/dapr/dapr",
-	"workspaceFolder": "/go/src/github.com/dapr/dapr",
+	"workspaceMount": "type=bind,source=${localWorkspaceFolder},target=/go/src/github.com/NyankoLux/dapr",
+	"workspaceFolder": "/go/src/github.com/NyankoLux/dapr",
 	"extensions": [
 		"ms-vscode.go",
 		"ms-azuretools.vscode-docker",

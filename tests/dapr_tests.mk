@@ -83,7 +83,7 @@ ifeq (,$(wildcard $(E2E_TESTAPP_DIR)/$(1)/$(DOCKERFILE)))
 	$(DOCKER) build -f $(E2E_TESTAPP_DIR)/$(DOCKERFILE) $(E2E_TESTAPP_DIR)/$(1)/. -t $(DAPR_TEST_REGISTRY)/e2e-$(1):$(DAPR_TEST_TAG)
 else
 # Builds of E2E apps within Docker works for Windows but are too slow. Disabling them for now.
-# See https://github.com/dapr/dapr/issues/2695
+# See https://github.com/NyankoLux/dapr/issues/2695
 ifeq ($(TARGET_OS),linux)
 	$(DOCKER) build -f $(E2E_TESTAPP_DIR)/$(1)/$(DOCKERFILE) $(E2E_TESTAPP_DIR)/$(1)/. -t $(DAPR_TEST_REGISTRY)/e2e-$(1):$(DAPR_TEST_TAG)
 endif
@@ -99,7 +99,7 @@ push-e2e-app-$(1): check-e2e-env
 ifeq ($(TARGET_OS),windows)
 ifeq (,$(wildcard $(E2E_TESTAPP_DIR)/$(1)/$(DOCKERFILE)))
 # Builds of E2E apps within Docker works for Windows but are too slow. Disabling them for now.
-# See https://github.com/dapr/dapr/issues/2695
+# See https://github.com/NyankoLux/dapr/issues/2695
 	$(DOCKER) push $(DAPR_TEST_REGISTRY)/e2e-$(1):$(DAPR_TEST_TAG)
 endif
 else

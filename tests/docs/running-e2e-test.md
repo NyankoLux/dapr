@@ -9,7 +9,7 @@ E2E tests are designed for verifying the functional correctness by replicating e
 
 ### Prerequisites
 
-* Set up [Dapr development environment](https://github.com/dapr/dapr/blob/master/docs/development/setup-dapr-development-env.md)
+* Set up [Dapr development environment](https://github.com/NyankoLux/dapr/blob/master/docs/development/setup-dapr-development-env.md)
   - [Install the latest Helm v3](https://docs.dapr.io/getting-started/install-dapr/#install-with-helm-advanced).
 * Create your DockerHub ID
 * Set the environment variables
@@ -130,9 +130,9 @@ make delete-test-namespace
 
 To keep the build infrastructure simple, Dapr uses [dapr-test GitHub
 Actions
-Workflow](https://github.com/dapr/dapr/actions?query=workflow%3Adapr-test)
+Workflow](https://github.com/NyankoLux/dapr/actions?query=workflow%3Adapr-test)
 to run e2e tests using one of [AKS
-clusters](https://github.com/dapr/dapr/blob/4cd61680a3129f729deae24a51da241d0701376c/tests/test-infra/find_cluster.sh#L12-L17). A
+clusters](https://github.com/NyankoLux/dapr/blob/4cd61680a3129f729deae24a51da241d0701376c/tests/test-infra/find_cluster.sh#L12-L17). A
 separate workflow also runs E2E in [KinD](https://kind.sigs.k8s.io/)
 clusters.
 

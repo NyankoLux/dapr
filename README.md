@@ -2,14 +2,14 @@
 <h2>Any language, any framework, anywhere</h2>
 </div>
 
-[![Go Report Card](https://goreportcard.com/badge/github.com/dapr/dapr)](https://goreportcard.com/report/github.com/dapr/dapr)
+[![Go Report Card](https://goreportcard.com/badge/github.com/NyankoLux/dapr)](https://goreportcard.com/report/github.com/NyankoLux/dapr)
 [![Docker Pulls](https://img.shields.io/docker/pulls/daprio/dapr)](https://hub.docker.com/r/daprio/dapr)
-[![Build Status](https://github.com/dapr/dapr/workflows/dapr/badge.svg?event=push&branch=master)](https://github.com/dapr/dapr/actions?workflow=dapr)
-[![Scheduled e2e test](https://github.com/dapr/dapr/workflows/dapr-test/badge.svg?event=schedule)](https://github.com/dapr/dapr/actions?workflow=dapr-test)
+[![Build Status](https://github.com/NyankoLux/dapr/workflows/dapr/badge.svg?event=push&branch=master)](https://github.com/NyankoLux/dapr/actions?workflow=dapr)
+[![Scheduled e2e test](https://github.com/NyankoLux/dapr/workflows/dapr-test/badge.svg?event=schedule)](https://github.com/NyankoLux/dapr/actions?workflow=dapr-test)
 [![codecov](https://codecov.io/gh/dapr/dapr/branch/master/graph/badge.svg)](https://codecov.io/gh/dapr/dapr)
 [![Discord](https://img.shields.io/discord/778680217417809931)](https://discord.com/channels/778680217417809931/778680217417809934)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![TODOs](https://badgen.net/https/api.tickgit.com/badgen/github.com/dapr/dapr)](https://www.tickgit.com/browse?repo=github.com/dapr/dapr)
+[![TODOs](https://badgen.net/https/api.tickgit.com/badgen/github.com/NyankoLux/dapr)](https://www.tickgit.com/browse?repo=github.com/NyankoLux/dapr)
 [![Follow on Twitter](https://img.shields.io/twitter/follow/daprdev.svg?style=social&logo=twitter)](https://twitter.com/intent/follow?screen_name=daprdev)
 
 Dapr is a portable, serverless, event-driven runtime that makes it easy for developers to build resilient, stateless and stateful microservices that run on the cloud and edge and embraces the diversity of languages and developer frameworks.
@@ -113,7 +113,7 @@ See the [Development Guide](https://docs.dapr.io/contributing/) to get started w
 
 | Repo | Description |
 |:-----|:------------|
-| [Dapr](https://github.com/dapr/dapr) | The main repository that you are currently in. Contains the Dapr runtime code and overview documentation.
+| [Dapr](https://github.com/NyankoLux/dapr) | The main repository that you are currently in. Contains the Dapr runtime code and overview documentation.
 | [CLI](https://github.com/dapr/cli) | The Dapr CLI allows you to setup Dapr on your local dev machine or on a Kubernetes cluster, provides debugging support, launches and manages Dapr instances.
 | [Docs](https://docs.dapr.io) | The documentation for Dapr.
 | [Quickstarts](https://github.com/dapr/quickstarts) | This repository contains a series of simple code samples that highlight the main Dapr capabilities

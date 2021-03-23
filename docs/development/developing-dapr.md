@@ -81,14 +81,14 @@ Once everything is successfully installed you should see make and other command 
 
 ```bash
 cd $GOPATH/src
-mkdir -p github.com/dapr/dapr
-git clone https://github.com/dapr/dapr.git github.com/dapr/dapr
+mkdir -p github.com/NyankoLux/dapr
+git clone https://github.com/NyankoLux/dapr.git github.com/NyankoLux/dapr
 ```
 
 ## Build the Dapr binaries
 
 You can build dapr binaries with the `make` tool.
-When running `make`, you need to be at the root of the `dapr/dapr` repo directory, for example: `$GOPATH/src/github.com/dapr/dapr`.<br><br>
+When running `make`, you need to be at the root of the `dapr/dapr` repo directory, for example: `$GOPATH/src/github.com/NyankoLux/dapr`.<br><br>
 Once built, the release binaries will be found in `./dist/{os}_{arch}/release/`, where `{os}_{arch}` is your current OS and architecture.
 
 For example, running `make build` on MacOS will generate the directory `./dist/darwin_amd64/release.
@@ -98,7 +98,7 @@ For example, running `make build` on MacOS will generate the directory `./dist/d
 * Build for your current local environment
 
 ```bash
-cd $GOPATH/src/github.com/dapr/dapr/
+cd $GOPATH/src/github.com/NyankoLux/dapr/
 make build
 ```
 
@@ -123,7 +123,7 @@ This section introduces how to start debugging with Delve CLI. Please see [Delve
 ### Start the dapr runtime with a debugger
 
 ```bash
-$ cd $GOPATH/src/github.com/dapr/dapr/cmd/daprd
+$ cd $GOPATH/src/github.com/NyankoLux/dapr/cmd/daprd
 $ dlv debug .
 Type 'help' for list of commands.
 (dlv) break main.main

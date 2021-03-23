@@ -3,7 +3,7 @@ module app
 go 1.16
 
 require (
-	github.com/dapr/dapr v0.11.3
+	github.com/NyankoLux/dapr v0.11.3
 	github.com/golang/protobuf v1.4.3
 	github.com/gorilla/mux v1.7.3
 	google.golang.org/api v0.39.0

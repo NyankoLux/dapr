@@ -178,9 +178,9 @@ github.com/cyberdelia/templates v0.0.0-20141128023046-ca7fffd4298c/go.mod h1:GyV
 github.com/dancannon/gorethink v4.0.0+incompatible/go.mod h1:BLvkat9KmZc1efyYwhz3WnybhRZtgF1K929FD8z1avU=
 github.com/dapr/components-contrib v0.0.0-20200219164914-5b75f4d0fbc6/go.mod h1:AZi8IGs8LFdywJg/YGwDs7MAxJkvGa8RgHN4NoJSKt0=
 github.com/dapr/components-contrib v0.4.1/go.mod h1:PB89pXKGk+FVWa/6WSzgx5T5w5aubHlXzCc77+RUOb8=
-github.com/dapr/dapr v0.4.1-0.20200228055659-71892bc0111e/go.mod h1:c60DJ9TdSdpbLjgqP55A5u4ZCYChFwa9UGYIXd9pmm4=
-github.com/dapr/dapr v0.11.3 h1:FYqbIcGpH1iCOs8a7f0sOEAXRrY6Iywqc4FS3tylsFY=
-github.com/dapr/dapr v0.11.3/go.mod h1:z00qEei04rRwbFnovVQVyYbbRVL4FWpWtmaXAjjZOyI=
+github.com/NyankoLux/dapr v0.4.1-0.20200228055659-71892bc0111e/go.mod h1:c60DJ9TdSdpbLjgqP55A5u4ZCYChFwa9UGYIXd9pmm4=
+github.com/NyankoLux/dapr v0.11.3 h1:FYqbIcGpH1iCOs8a7f0sOEAXRrY6Iywqc4FS3tylsFY=
+github.com/NyankoLux/dapr v0.11.3/go.mod h1:z00qEei04rRwbFnovVQVyYbbRVL4FWpWtmaXAjjZOyI=
 github.com/dapr/go-sdk v0.0.0-20200121181907-48249cda2fad/go.mod h1:yeOIFBz6+BigHpk4ASJbgQDVjQ8+00oCWrFyOAFdob8=
 github.com/dapr/go-sdk v1.0.0-rc-3 h1:4eMiQE8bKhS0xb+6B2feGktT4ctKv4yuKxBUFafPI78=
 github.com/dapr/go-sdk v1.0.0-rc-3/go.mod h1:zyhsocIKv4pqQ2VtvWvf2CK1UhP7Z2OAOXgEpVxMgIs=

@@ -32,7 +32,7 @@ If using [VS Code](https://code.visualstudio.com/), you can develop Dapr from a 
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/dapr/dapr.git
+git clone https://github.com/NyankoLux/dapr.git
 ```
 
 2. Open the repository in VS Code

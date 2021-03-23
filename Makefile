@@ -91,7 +91,7 @@ HELM_REGISTRY?=daprio.azurecr.io
 ################################################################################
 # Go build details                                                             #
 ################################################################################
-BASE_PACKAGE_NAME := github.com/dapr/dapr
+BASE_PACKAGE_NAME := github.com/NyankoLux/dapr
 
 DEFAULT_LDFLAGS:=-X $(BASE_PACKAGE_NAME)/pkg/version.commit=$(GIT_VERSION) -X $(BASE_PACKAGE_NAME)/pkg/version.version=$(DAPR_VERSION)
 
@@ -247,7 +247,7 @@ init-proto:
 # Target: gen-proto                                                            #
 ################################################################################
 GRPC_PROTOS:=common internals operator placement runtime sentry
-PROTO_PREFIX:=github.com/dapr/dapr
+PROTO_PREFIX:=github.com/NyankoLux/dapr
 
 # Generate archive files for each binary
 # $(1): the binary name to be archived

@@ -13,7 +13,7 @@ on:
 defaults:
   run:
     shell: bash
-    working-directory: ./src/github.com/dapr/dapr
+    working-directory: ./src/github.com/NyankoLux/dapr
 
 jobs:
   # This workflow runs our e2e tests in a local KinD cluster. Since it
@@ -75,7 +75,7 @@ jobs:
     - name: Check out code onto GOPATH
       uses: actions/checkout@v2
       with:
-        path: ./src/github.com/dapr/dapr
+        path: ./src/github.com/NyankoLux/dapr
 
     - name: Configure KinD
       # Generate a KinD configuration file that uses:
