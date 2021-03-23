@@ -1,4 +1,4 @@
-module github.com/dapr/dapr
+module github.com/NyankoLux/dapr
 
 go 1.16
 
